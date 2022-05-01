@@ -1,0 +1,205 @@
+(base)
+peter@PLXPS13 MINGW64 ~
+$ conda activate dev
+(dev)
+peter@PLXPS13 MINGW64 ~
+$ cd fin
+bash: cd: fin: No such file or directory
+(dev)
+peter@PLXPS13 MINGW64 ~
+$ cd FinTech_Workspace/
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace
+$ git clone https://github.com/plefebvre1/module_18_challenge.git
+Cloning into 'module_18_challenge'...
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (5/5), done.
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace
+$ cd module_18_challenge/
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_18_challenge (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_18_challenge (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        pychain.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_18_challenge (main)
+$ git add pychain.py
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_18_challenge (main)
+$ git commit -m 'Initial starter code'
+[main b27189d] Initial starter code
+ 1 file changed, 247 insertions(+)
+ create mode 100644 pychain.py
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_18_challenge (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 2.71 KiB | 2.71 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/plefebvre1/module_18_challenge.git
+   893dc14..b27189d  main -> main
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_18_challenge (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   pychain.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_18_challenge (main)
+$ git add pychain.py
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_18_challenge (main)
+$ git commit -m 'Record dataclass created'
+[main 2b69d1f] Record dataclass created
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_18_challenge (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 413 bytes | 413.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/plefebvre1/module_18_challenge.git
+   b27189d..2b69d1f  main -> main
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_18_challenge (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   pychain.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_18_challenge (main)
+$ git add pychain.py
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_18_challenge (main)
+$ git commit -m 'Existing block dataclass updated to store record data'
+[main 66b9659] Existing block dataclass updated to store record data
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_18_challenge (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 329 bytes | 329.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/plefebvre1/module_18_challenge.git
+   2b69d1f..66b9659  main -> main
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_18_challenge (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   pychain.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_18_challenge (main)
+$ git add pychain.py
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_18_challenge (main)
+$ git commit -m 'User inputs updated in the streamlit interface'
+[main ae26072] User inputs updated in the streamlit interface
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_18_challenge (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 425 bytes | 425.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/plefebvre1/module_18_challenge.git
+   66b9659..ae26072  main -> main
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_18_challenge (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Images/
+
+nothing added to commit but untracked files present (use "git add" to track)
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_18_challenge (main)
+$ git add Images/
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_18_challenge (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Images/StreamlitApplicationBlockchainValidated.png
+        new file:   Images/StreamlitApplicationScreenshot.png
+
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_18_challenge (main)
+$ git commit -m 'App screenshots'
+[main bae9962] App screenshots
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Images/StreamlitApplicationBlockchainValidated.png
+ create mode 100644 Images/StreamlitApplicationScreenshot.png
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_18_challenge (main)
+$ git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 127.19 KiB | 18.17 MiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/plefebvre1/module_18_challenge.git
+   ae26072..bae9962  main -> main
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_18_challenge (main)
+$ touch terminal_history.txt
+(dev)
