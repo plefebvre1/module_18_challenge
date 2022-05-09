@@ -13,7 +13,7 @@ If the user wishes to validate the blockchain, there is a 'Validate Chain' butto
 
 This project leverages Python 3.7 with the following packages:
 
-* [pandas](https://pandas.pydata.org/) - For financial data analysis tools
+* [web3](https://web3py.readthedocs.io/en/stable/) - For interacting with Ethereum
 * [streamlit](https://streamlit.io/) - To turn data scripts into shareable web apps
 
 ## Contributors
